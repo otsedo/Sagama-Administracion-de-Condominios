@@ -40,3 +40,12 @@ body {
   font-weight: 400;
   color: #555;
 }
+
+.heading-primary {
+  color: #122750;
+  font-weight: 700;
+  font-size: 4.4rem;
+  letter-spacing: -0.5px;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}

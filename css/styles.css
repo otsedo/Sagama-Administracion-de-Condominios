@@ -31,7 +31,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 4.8rem;
-  margin-top: 3.2rem;
+  margin: 3.2rem 0 3.2rem;
 }
 
 .logo {
@@ -42,10 +42,14 @@
 /* NAVIGATION */
 /**************************/
 
+.main-nav {
+  border-bottom: #122750 solid;
+  padding-bottom: 10px;
+}
 .main-nav-list {
   list-style: none;
   display: flex;
-  gap: 2.4rem;
+  gap: 3.2rem;
   align-items: center;
 }
 
@@ -56,7 +60,7 @@
   text-transform: uppercase;
   color: #184490;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .main-nav-link.nav-cta:link,
@@ -76,4 +80,57 @@
 .main-nav-link:hover,
 .main-nav-link:active {
   color: #1360e2;
+}
+
+/**************************/
+/* HERO SECTION */
+/**************************/
+
+.hero {
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+  padding-left: 4.8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image-box img {
+  display: block;
+  width: 100%;
+  height: 75dvh;
+  padding-right: 4.8rem;
+}
+
+.hero-text-box-text {
+  font-size: 2.4rem;
+  color: #184490;
+  font-weight: 500;
+}
+
+.chat-icon {
+  height: 48px;
+  width: 48px;
+  color: #eef8ff;
+  background-color: #122750;
+  stroke: currentColor;
+  padding-left: 1.2rem;
+}
+
+.cta {
+  display: flex;
+  margin: 6.4rem 6.4rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #122750;
+  text-decoration: none;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text-box-cta {
+  display: grid;
 }
