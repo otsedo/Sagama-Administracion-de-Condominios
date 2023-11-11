@@ -104,6 +104,14 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--6-cols {
+  grid-template-columns: repeat(6, 1fr);
+}
+
 .center-text {
   text-align: center;
+}
+
+.left-text {
+  text-align: left;
 }
