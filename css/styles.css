@@ -222,22 +222,42 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 6.4rem;
 }
 .clients-grid {
   display: grid;
   column-gap: 2.4rem;
-  row-gap: 2.4rem;
+  row-gap: 6rem;
+  margin: 2.4rem 24rem;
 }
 
 .building-img {
   vertical-align: middle;
   width: 100%;
-  /* height: 200px; */
+  height: 200px;
+  border-radius: 5%;
 }
 
 .apartments-data {
-  display: block;
-  justify-content: center;
+  display: flex;
+  justify-content: left;
   align-items: center;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+  padding: 1.2rem 0;
+  color: #184490;
+}
+
+.client-box p {
+  margin: 12px 0 0 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.apartment-count {
+  margin-left: 12px;
+  color: #184490;
+}
+.apt-icon {
+  width: 24px;
+  height: 24px;
 }
