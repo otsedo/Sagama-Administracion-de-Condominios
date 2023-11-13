@@ -144,22 +144,27 @@
 /**************************/
 
 .about-us-section {
+  width: 130rem;
   margin-top: 3.2rem;
+  margin: 0 auto;
   margin-bottom: 9.6rem;
 }
 .about-us-img {
-  height: 52rem;
+  height: 50rem;
   place-self: center;
 }
 
 .grid-mision {
   display: inline-grid;
 }
+.grid-mision p {
+  margin-bottom: 3.2rem;
+}
 
 .about-us-box-title {
   display: flex;
   font-size: 2rem;
-  color: #1360e2;
+  color: #184490;
   font-weight: 600;
   margin-bottom: 1.2rem;
 }
@@ -169,13 +174,13 @@
 }
 
 .mision-icon {
-  color: #1360e2;
+  color: #184490;
   height: 24px;
   width: 24px;
 }
 
 .valores-icon {
-  color: #1360e2;
+  color: #184490;
   height: 24px;
   width: 24px;
   padding-right: 1.2rem;
@@ -218,11 +223,13 @@
 /**************************/
 
 .clients-container {
+  max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin-bottom: 6.4rem;
+  transition: all 0.5s ease;
 }
 .clients-grid {
   display: grid;
@@ -236,6 +243,10 @@
   width: 100%;
   height: 200px;
   border-radius: 5%;
+}
+
+.building-img:hover {
+  transform: scale(1.1);
 }
 
 .apartments-data {
@@ -260,4 +271,38 @@
 .apt-icon {
   width: 24px;
   height: 24px;
+}
+
+/**************************/
+/* Mantenimiento de areas comunes SECTION */
+/**************************/
+
+.card {
+  background-color: #184490;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  max-width: 100%;
+}
+
+.tipo-mantenimientos-text {
+  color: #122750;
+  font-size: 2.4rem;
+  margin: 4.8rem 0;
+  line-height: 1.2;
+}
+
+.card-img {
+  width: 100%;
+  /* height: 300px; */
+}
+
+.card-title {
+  background-color: #184490;
+  color: #eef8ff;
+  font-size: 2.4rem;
+  font-weight: 600;
+  padding: 1.2rem 1.2rem;
+  text-align: center;
 }
