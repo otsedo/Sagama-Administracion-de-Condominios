@@ -358,3 +358,73 @@
   padding: 1.2rem 1.2rem;
   text-align: center;
 }
+
+/**************************/
+/* CONTACT SECTION */
+/**************************/
+
+.contact-section {
+  margin: 9.6rem 5rem 5rem 5rem;
+}
+
+.contact-text {
+  font-size: 1.8rem;
+  color: #555;
+  margin-bottom: 1.2rem;
+}
+
+.contact-section p {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.contact-link:link,
+.contact-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.contact-table-heading {
+  font-size: 1.8rem;
+  color: #555;
+}
+
+.contact-icon {
+  color: #122750;
+  font-size: 3rem;
+  margin-right: 1.2rem;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  min-width: 30rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.01);
+}
+
+.styled-table thead tr {
+  background-color: #eef8ff;
+  color: #555;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #eef8ff;
+}
+
+/* .styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #122750;
+} */
