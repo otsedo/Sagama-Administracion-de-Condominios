@@ -682,38 +682,45 @@
             </tbody>
           </table>
         </div>
-        <div class="contact-form">
-          <form action="" class="cta-form">
-            <p class="cta-text">
-              Envíanos un mensaje y pronto nos pondremos en contacto contigo.
-            </p>
-            <label for="email">Email</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              required
-              placeholder="me@example.com"
-            />
+        <div class="cta-text-box">
+          <p class="cta-text">
+            Envíanos un mensaje y pronto nos pondremos en contacto contigo.
+          </p>
 
-            <label for="full-name">Nombre Completo</label>
-            <input
-              type="text"
-              name="full-name"
-              id="full-name"
-              required
-              placeholder="John Smith"
-            />
+          <form class="cta-form" action="#">
+            <div>
+              <label for="full-name">Nombre Completo</label>
+              <input
+                id="full-name"
+                type="text"
+                placeholder="Juan Perez"
+                required
+              />
+            </div>
 
-            <label for="mensaje">Mensaje</label>
-            <textarea
-              name="mensaje"
-              id=""
-              cols="30"
-              rows="5"
-              required
-            ></textarea>
-            <button class="btn btn--form">Enviar Mensaje</button>
+            <div>
+              <label for="email">Email</label>
+              <input
+                id="email"
+                type="email"
+                placeholder="ejemplo@mail.com"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="mensaje">Mensaje</label>
+              <textarea
+                name="mensaje"
+                id=""
+                cols="90"
+                rows="5"
+                required
+                class="contact-text-area"
+              ></textarea>
+
+              <button class="btn btn--form">Enviar Mensaje</button>
+            </div>
           </form>
         </div>
       </div>
