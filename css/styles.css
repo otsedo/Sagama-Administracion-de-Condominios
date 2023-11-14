@@ -219,6 +219,33 @@
 }
 
 /**************************/
+/* PERFIL EMPRESARIAL SECTION */
+/**************************/
+.perfil-empresarial-section {
+  display: grid;
+  grid-template-columns: 65fr 35fr;
+  background-color: #122750;
+  margin-bottom: 9.6rem;
+  margin-top: 9.6rem;
+}
+
+.perfil-empresarial-text {
+  background-color: #122750;
+}
+
+.perfil-empresarial-text {
+  align-self: center;
+  padding: 25px 25px;
+  background-color: #122750;
+  color: #eef8ff;
+  font-size: 3.6rem;
+}
+
+.perfil-empresarial-img {
+  opacity: 0.3;
+}
+
+/**************************/
 /* OUR CLIENTS SECTION */
 /**************************/
 
@@ -239,6 +266,7 @@
 }
 
 .building-img {
+  transition: all 0.4s;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   vertical-align: middle;
   width: 100%;
@@ -303,6 +331,11 @@
   overflow: hidden;
   width: 300px;
   max-width: 100%;
+  opacity: 0.9;
+}
+
+.card:hover {
+  opacity: 1;
 }
 
 .tipo-mantenimientos-text {
