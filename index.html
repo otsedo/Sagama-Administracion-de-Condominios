@@ -623,7 +623,7 @@
 
     <section class="contact-section">
       <h2 class="heading-primary center-text">Contáctanos</h2>
-      <div class="grid grid--2-cols">
+      <div class="contact-grid">
         <div class="contact-info">
           <p class="contact-direction">
             <ion-icon name="location-outline" class="contact-icon"></ion-icon>
@@ -683,21 +683,37 @@
           </table>
         </div>
         <div class="contact-form">
-          <form action="">
+          <form action="" class="cta-form">
+            <p class="cta-text">
+              Envíanos un mensaje y pronto nos pondremos en contacto contigo.
+            </p>
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" required />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="me@example.com"
+            />
 
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" required />
+            <label for="full-name">Nombre Completo</label>
+            <input
+              type="text"
+              name="full-name"
+              id="full-name"
+              required
+              placeholder="John Smith"
+            />
 
             <label for="mensaje">Mensaje</label>
             <textarea
               name="mensaje"
               id=""
               cols="30"
-              rows="10"
+              rows="5"
               required
             ></textarea>
+            <button class="btn btn--form">Enviar Mensaje</button>
           </form>
         </div>
       </div>
