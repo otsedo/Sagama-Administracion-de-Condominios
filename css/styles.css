@@ -524,7 +524,6 @@
 .footer-box {
   display: grid;
   grid-template-columns: 2.5fr 1fr 1fr 1fr;
-  margin: 25rem 0 0 0;
 }
 
 .footer-section {
@@ -553,7 +552,7 @@
   display: flex;
   flex-direction: column;
   list-style: none;
-  row-gap: 25px;
+  row-gap: 1.5rem;
   font-size: 1.4rem;
 }
 
@@ -568,13 +567,13 @@
 
 .footer-nav-link:link,
 .footer-nav-link:visited {
-  color: #122750;
+  color: #555;
 }
 
 .footer-section-icons {
   display: flex;
   flex-direction: column;
-  row-gap: 2.4rem;
+  row-gap: 1.8rem;
   margin-top: 25px;
   align-items: center;
 }
@@ -583,9 +582,14 @@
 .footer-section-icons a:visited {
   text-decoration: none;
   font-size: 1.8rem;
-  color: #122750;
+  color: #555;
 }
 
 .footer-section-icons ion-icon {
   margin-right: 5px;
+}
+
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
 }
