@@ -516,3 +516,76 @@
   background-color: #1360e2;
   color: #fff;
 }
+
+/**************************/
+/* FOOTER SECTION */
+/**************************/
+
+.footer-box {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr 1fr 1fr;
+  margin: 25rem 0 0 0;
+}
+
+.footer-section {
+  border-right: #122750 solid 0.5px;
+  margin-bottom: 1.8rem;
+}
+
+.footer-section-title {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 0.1rem;
+  text-align: center;
+}
+
+.footer-section-img {
+  display: flex;
+  justify-content: center;
+  margin: auto 0;
+}
+
+.footer-section img {
+  width: 40rem;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  row-gap: 25px;
+  font-size: 1.4rem;
+}
+
+.footer-nav-list:last-child {
+  margin-bottom: 25px;
+}
+
+.footer-nav-link {
+  text-decoration: none;
+  padding-left: 50px;
+}
+
+.footer-nav-link:link,
+.footer-nav-link:visited {
+  color: #122750;
+}
+
+.footer-section-icons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.4rem;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.footer-section-icons a:link,
+.footer-section-icons a:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #122750;
+}
+
+.footer-section-icons ion-icon {
+  margin-right: 5px;
+}
